@@ -1,32 +1,51 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Helvetica, Arial, sans-serif;
-    color: #cccccc;
+    font-family: 'Arvo', serif;
+    color: #292828;
     text-align: center;
 }
 
 body {
-    background-color: rgb(0, 0, 0);
+    background-image: url("./assets/images/fondo.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main {
+    background-color: rgba(226, 224, 224, 0.363);
+    justify-self: center;
+    align-self: center;
 }
 
 
 /*----------------HEADER-----------------*/
 
 header nav {
-    background-color: rgba(228, 228, 228, 0.308);
     padding: 10px;
     text-align: right;
 }
 
 header nav a {
     text-align: start;
-    color: #eeeeee;
+    color: #ffffff;
     text-shadow: 2px 2px 4px rgb(0, 0, 0);
     text-decoration: none;
     padding: 15px 30px;
     font-size: 1.3em;
     list-style: none;
+}
+
+.vertical {
+    display: inline-block;
+    width: 1vmin;
+    height: 5vmin;
+    background: transparent;
+    border-right: 2px solid rgb(255, 255, 255);
+    box-shadow: 0 0 0 lightgray;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: -8px;
 }
 
 
@@ -40,22 +59,22 @@ header nav a {
 }
 
 .principal h1 {
+    font-family: 'Odibee Sans', cursive;
     max-width: 100%;
-    margin: 100px;
+    margin: 50px;
     font-size: 4em;
     text-transform: uppercase;
-    font-family: Helvetica;
     text-align: left;
     line-height: 0.75em;
-    transform: scaleY(2);
-    letter-spacing: 0vw;
-    color: #b5a820;
-    text-shadow: 0px 2px 5px rgb(49, 41, 5);
+    letter-spacing: 0.2em;
+    color: #ffffffc5;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    padding-top: 50px;
 }
 
 .principal img {
-    max-width: 250px;
-    box-shadow: -30px -30px 1.5px rgba(255, 255, 255, 0.459);
+    max-width: 200px;
+    box-shadow: -30px -30px 1.5px rgba(29, 29, 29, 0.459);
 }
 
 .descripcion {
@@ -92,7 +111,7 @@ footer {
     height: 15vh;
     bottom: 0;
     position: fixed;
-    background-color: rgba(255, 255, 255, 0.226);
+    background-color: rgba(39, 39, 39, 0.527);
 }
 
 footer .icons {
@@ -105,7 +124,7 @@ footer a {
 }
 
 footer p {
-    color: rgba(255, 255, 255, 0.452);
+    color: rgba(255, 255, 255, 0.589);
     text-shadow: 1px 1px 2px black;
     font-size: 16px;
     padding-right: 10px;
